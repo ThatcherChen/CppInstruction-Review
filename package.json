@@ -1,0 +1,21 @@
+{
+  "name": "lec",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.37.1",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  },
+  "devDependencies": {
+    "@iconify-json/fluent": "^1.1.17",
+    "@iconify-json/fluent-emoji": "^1.1.6",
+    "@iconify-json/ic": "^1.1.10",
+    "@iconify-json/uim": "^1.1.3",
+    "playwright-chromium": "^1.28.1"
+  }
+}
